@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REDEX 1.07 | Official Hub</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  border-bottom: 1px solid #251010;
+  background: #0d0d0d;
+}
+.logo {
+  color: #ff2525;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+nav {
+  display: flex;
+  gap: 22px;
+}
+nav a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 13px;
+}
+nav a:hover { color: #ff2929; }
+.hero {
+  min-height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 65px 20px;
+  background: radial-gradient(ellipse at center,#401010 0%,#160909 35%,#080808 75%);
+}
+.tag {
+  border: 1px solid #772020;
+  color: #ff6464;
+  padding: 9px 17px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+h1 {
+  font-size: clamp(45px,9vw,85px);
+  margin: 25px 0 12px;
+  font-weight: 1000;
+}
+h1 span { color: #ff2929; }
+.hero p {
+  max-width: 500px;
+  color: #aaa;
+  line-height: 1.8;
+  font-size: 15px;
+}
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn {
+  padding: 14px 24px;
+  background: #e92323;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.btn.secondary {
+  background: #171717;
+  border: 1px solid #444;
+}
+section {
+  padding: 65px 8%;
+  text-align: center;
+}
+.section-title {
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+.section-title span { color: #ff2929; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 18px;
+}
+.card {
+  background: linear-gradient(145deg,#191111,#101010);
+  border: 1px solid #351818;
+  border-radius: 13px;
+  padding: 30px 20px;
+  text-align: left;
+}
+.card .emoji { font-size: 28px; }
+.card h3 { margin: 17px 0 10px; }
+.card p {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.7;
+}
+footer {
+  padding: 30px 15px;
+  text-align: center;
+  border-top: 1px solid #292020;
+  color: #777;
+  font-size: 12px;
+}
+@media(max-width:650px) {
+  header { flex-direction: column; gap: 18px; }
+  nav { gap: 13px; flex-wrap: wrap; justify-content: center; }
+  .cards { grid-template-columns: 1fr; }
+  section { padding: 45px 6%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">REDEX.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#updates">Updates</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+  <div class="tag">● REDEX VERSION 1.07</div>
+  <h1>WELCOME TO <span>REDEX.</span></h1>
+  <p>Your Roblox community hub for gaming resources, tutorials, scripts and updates. Everything you need in one place.</p>
+  <div class="buttons">
+    <a class="btn" href="#features">Explore Redex</a>
+    <a class="btn secondary" href="#updates">What's New</a>
+  </div>
+</div>
+
+<section id="features">
+  <h2 class="section-title">EXPLORE <span>REDEX</span></h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🎮</div>
+      <h3>Game Library</h3>
+      <p>Discover Roblox games and useful community resources.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📚</div>
+      <h3>Tutorials</h3>
+      <p>Explore guides, tips and helpful tutorials.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">⚡</div>
+      <h3>Community</h3>
+      <p>Keep up with Redex news and community updates.</p>
+    </div>
+  </div>
+</section>
+
+<section id="updates">
+  <h2 class="section-title">LATEST <span>UPDATES</span></h2>
+  <div class="card">
+    <h3>Redex 1.07 — New Beginning</h3>
+    <p>A fresh Redex website, updated design and a new home for the community.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  REDEX 1.07 · OFFICIAL HUB<br><br>
+  © 2026 REDEX. All rights reserved.
+</footer>
+
+</body>
+</html>
