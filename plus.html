@@ -1,84 +1,100 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Redex Plus</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #080808;
-      color: white;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      padding: 20px;
-      background: #111;
-      border-bottom: 1px solid #ff3030;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo { color: #ff3030; font-size: 25px; font-weight: bold; }
-    a { color: white; text-decoration: none; }
-    .home { background: #252525; padding: 10px 15px; border-radius: 8px; }
-    main { max-width: 850px; margin: auto; padding: 60px 20px; text-align: center; }
-    .tag { color: #ff3030; font-weight: bold; letter-spacing: 3px; }
-    h1 { font-size: clamp(40px, 9vw, 65px); margin: 15px 0; }
-    h1 span { color: #ff3030; }
-    .description { color: #aaa; line-height: 1.7; }
-    .card {
-      margin-top: 35px;
-      padding: 30px 20px;
-      background: #151515;
-      border: 1px solid #442020;
-      border-radius: 15px;
-    }
-    .card h2 { color: #ff4545; }
-    .features { text-align: left; line-height: 2.5; color: #ddd; }
-    .button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 25px;
-      background: #e32636;
-      border-radius: 9px;
-      font-weight: bold;
-    }
-    footer { padding: 25px; text-align: center; color: #666; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redex Plus</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+background:#080808;
+color:white;
+font-family:Arial,sans-serif;
+}
+header{
+padding:20px 7%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+border-bottom:1px solid #333;
+}
+.logo{font-size:25px;font-weight:bold;color:#ff3030}
+header a{color:white;text-decoration:none}
+main{
+max-width:950px;
+margin:auto;
+padding:80px 20px;
+text-align:center;
+}
+.tag{color:#ff3030;font-weight:bold;letter-spacing:4px}
+h1{font-size:clamp(45px,9vw,75px);margin:20px 0}
+h1 span{color:#ff3030}
+p{color:#aaa;line-height:1.7}
+.card{
+background:#151515;
+border:1px solid #442020;
+border-radius:18px;
+padding:35px 20px;
+margin-top:40px;
+}
+.card h2{color:#ff3030}
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+margin-top:25px;
+}
+.feature{
+background:#202020;
+padding:20px;
+border-radius:10px;
+}
+.button{
+display:inline-block;
+background:#e32636;
+padding:15px 28px;
+border-radius:9px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+margin-top:25px;
+}
+footer{text-align:center;color:#666;padding:30px}
+</style>
 </head>
 <body>
-  <header>
-    <div class="logo">REDEX.</div>
-    <a class="home" href="index.html">Home</a>
-  </header>
 
-  <main>
-    <div class="tag">THE PREMIUM EXPERIENCE</div>
-    <h1>REDEX <span>PLUS</span></h1>
-    <p class="description">
-      Take your gaming experience further.
-      Exclusive resources, tutorials and more.
-    </p>
+<header>
+<div class="logo">REDEX.</div>
+<a href="index.html">← Home</a>
+</header>
 
-    <div class="card">
-      <h2>Coming Soon</h2>
-      <p>Redex Plus is currently being developed.</p>
-      <div class="features">
-        ✓ Exclusive tutorials<br>
-        ✓ Premium gaming resources<br>
-        ✓ Special community perks<br>
-        ✓ More features coming soon
-      </div>
-      <a class="button" href="https://discord.gg/BH3a7gm3wZ">
-        Join our Discord
-      </a>
-    </div>
-  </main>
+<main>
+<div class="tag">THE PREMIUM EXPERIENCE</div>
+<h1>REDEX <span>PLUS</span></h1>
+<p>Unlock more from your Redex gaming experience.</p>
 
-  <footer>© 2026 Redex. All rights reserved.</footer>
+<div class="card">
+<h2>Redex Plus is coming soon.</h2>
+<p>We're preparing exclusive features for our community.</p>
+
+<div class="features">
+<div class="feature">⭐ Premium Tutorials</div>
+<div class="feature">🎮 Exclusive Resources</div>
+<div class="feature">🔥 Special Perks</div>
+<div class="feature">🚀 Future Updates</div>
+</div>
+
+<a class="button" href="https://discord.gg/BH3a7gm3wZ">
+Join Redex Discord
+</a>
+</div>
+</main>
+
+<footer>© 2026 Redex. All rights reserved.</footer>
+
 </body>
 </html>
-0
